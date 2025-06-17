@@ -6,7 +6,7 @@ category: conferences
 permalink: /publication/2023_cvprw
 # excerpt: none
 date: 2023-02-28
-venue: 'CVPR Workshops'
+venue: 'International Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 # paperurl: 'https://ieeexplore.ieee.org/document/10678555'
 # bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
