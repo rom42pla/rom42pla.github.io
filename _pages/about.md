@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m currently a Postdoc Researcher in Artificial Intelligence at the Computer Science Department of Sapienza University of Rome. 
+I’m currently a Postdoc Researcher in Artificial Intelligence at the Computer Science Department of Sapienza University of Rome.
 My research lies at the intersection of Computer Vision, Digital Signal Processing, Continual Learning, and Human-Computer Interaction.
 
 I hold a PhD from the *Italian National PhD in Artificial Intelligence* program, where I deepened my expertise in AI and Deep Learning. My doctoral research, titled *"Sparking Light on Deep Learning in EEG Research"*, critically examined the recent success of neural networks in physiological signal analysis, highlighting and challenging some of the more surprising claims in the field.
@@ -16,11 +16,15 @@ Before pursuing my PhD, I earned both my BSc and MSc in Computer Science at Sapi
 
 Beyond research, I actively contribute to the academic community. I serve as a reviewer for top-tier conferences and journals such as **ICCV**, **NeurIPS**, **IEEE Transactions on Multimedia**, and **Nature Scientific Reports**, and co-organize workshops at major venues, including **BISCUIT** and **VisionDocs** at ICCV'25.
 
+---
+
 # News
 
 <iframe src='https://widgets.sociablekit.com/linkedin-profile-posts/iframe/25567725' frameborder='0' width='100%' height='500'></iframe>
 
-# Publications
+---
+
+# Selected publications
 
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can find a complete list of my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
@@ -28,25 +32,25 @@ Beyond research, I actively contribute to the academic community. I serve as a r
 
 {% include base_path %}
 
+## Conferences
 
+{% assign title_shown = false %}
+{% for post in site.publications reversed %}
+  {% if post.category != "conferences" %}
+    {% continue %}
+  {% endif %}
+  {% include archive-single.html %}
+{% endfor %}
 
-<!-- New style rendering if publication categories are defined
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %} -->
+## Journals
+
+{% assign title_shown = false %}
+{% for post in site.publications reversed %}
+  {% if post.category != "manuscripts" %}
+    {% continue %}
+  {% endif %}
+  {% include archive-single.html %}
+{% endfor %}
 
 <!-- A data-driven personal website
 ======
