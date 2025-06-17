@@ -17,9 +17,8 @@ Before pursuing my PhD, I earned both my BSc and MSc in Computer Science at Sapi
 Beyond research, I actively contribute to the academic community. I serve as a reviewer for top-tier conferences and journals such as **ICCV**, **NeurIPS**, **IEEE Transactions on Multimedia**, and **Nature Scientific Reports**, and co-organize workshops at major venues, including **BISCUIT** and **VisionDocs** at ICCV'25.
 
 # News
-## 2025
 
-- Oc
+<iframe src='https://widgets.sociablekit.com/linkedin-profile-posts/iframe/25567725' frameborder='0' width='100%' height='500'></iframe>
 
 # Publications
 
@@ -28,6 +27,8 @@ Beyond research, I actively contribute to the academic community. I serve as a r
 {% endif %}
 
 {% include base_path %}
+
+
 
 <!-- New style rendering if publication categories are defined
 {% if site.publication_category %}
