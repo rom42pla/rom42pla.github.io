@@ -26,10 +26,10 @@ author:
   name             : "Romeo Lanzino"
   pronouns         : "he/him" 
   bio              : "Postdoc in AI"
-  location         : "Rome, Italy"
-  employer         : "Sapienza University of Rome"
-  uri              : # URL
-  email            : "lanzino@di.uniroma1.it" 
+  location         : "Stockholm, Sweden"
+  employer         : "KTH"
+  uri              : https://www.kth.se/profile/lanzino
+  email            : "lanzino@kth.se" 
 
   # Academic websites
   academia         : # URL
