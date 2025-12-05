@@ -29,15 +29,9 @@ You can find [my complete CV here](files/cv.pdf).
 
 ### 2025
 
-<<<<<<< HEAD
-#### November
-
-:snowflake: Presented my postdoc project at the [Digitalize in Stockholm '25 event](https://digitalizeinsthlm.se/)
-=======
 #### September
 
 :snowflake: :computer: Just started my second Postdoc position, this time at KTH!
->>>>>>> origin/master
 
 #### May
 
