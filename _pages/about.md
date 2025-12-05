@@ -28,6 +28,10 @@ You can find [my complete CV here](files/romeo_lanzino_cv.pdf).
 
 ### 2025
 
+#### November
+
+:snowflake: Presented my postdoc project at the [Digitalize in Stockholm '25 event](https://digitalizeinsthlm.se/)
+
 #### May
 
 :palm_tree: :ocean: Our proposed workshops, [BISCUIT](https://sites.google.com/di.uniroma1.it/biscuit-workshop-1/home) and [VisionDocs](https://sites.google.com/view/avml-lab-visiondocs-iccv2025) have been accepted at ICCV'25
